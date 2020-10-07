@@ -18,7 +18,7 @@ on:
       - apis/poi/**  
       - .github/workflows/poi.yml
   pull_request:
-    branches: [ BREAKIN_THE_BUILD ]
+    branches: [ master ]
     paths: 
       - apis/poi/**
       - .github/workflows/poi.yml
